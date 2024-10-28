@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: rgb(173, 6, 6);
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: rgb(117, 2, 2);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background: #333;
+    color: rgb(94, 4, 4);
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
